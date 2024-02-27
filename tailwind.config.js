@@ -12,7 +12,12 @@ module.exports = {
       desktop: "1280px",
       laptopl: "1440px",
     },
-    extend: {},
+    extend: {
+      fontFamily: {
+        ppmori: ['ppmori', 'sans-serif'],
+        georgia: ['Georgia', 'sans-serif']
+      }
+    },
   },
   plugins: [],
 };
