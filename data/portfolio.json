@@ -1,7 +1,8 @@
 {
-    "name": "Christina",
-    "subheader": "Creative thinker. Problem solver. Designer & Developer.",
-    "headerTagline": "Crafting seamless digital experiences, one click at a time.",
+    "name": "christina",
+    "subheader": "Creative thinker. Problem solver. Developer & designer.",
+    "headerTaglineOne": "Crafting seamless digital experiences,",
+    "headerTaglineTwo": "one click at a time.",
     "showBlog": false,
     "darkMode": true,
     "socials": [
