@@ -1,10 +1,15 @@
 import "../styles/globals.css";
 import { ThemeProvider } from "next-themes";
+import { AnimatePresence } from 'framer-motion';
 
-const App = ({ Component, pageProps }) => {
+const App = ({ Component, pageProps, router }) => {
   return (
     <ThemeProvider>
-      <Component {...pageProps} />
+      <div className='main'>
+        <AnimatePresence mode='wait'>
+            <Component key={router.route} {...pageProps} />
+        </AnimatePresence>
+      </div>
     </ThemeProvider>
   );
 };

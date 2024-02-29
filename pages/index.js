@@ -10,7 +10,7 @@ import Head from "next/head";
 import Button from "../components/Button";
 import Link from "next/link";
 import Cursor from "../components/Cursor";
-
+import Stairs from '../components/Layout/Stairs';
 
 
 
@@ -67,6 +67,7 @@ export default function Home() {
         <title>{data.name}</title>
       </Head>
 
+    <Stairs>
       <div className="gradient-circle"></div>
       <div className="gradient-circle-bottom"></div>
 
@@ -141,6 +142,7 @@ export default function Home() {
         </div>
 
       </div>
+      </Stairs>
     </div>
   );
 }

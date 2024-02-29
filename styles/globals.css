@@ -5,6 +5,7 @@
 @import "./markdown.css";
 
 
+
 @font-face {
   font-family: 'ppmori';
   src: url('../public/fonts/PPMori-Regular.otf');
@@ -80,4 +81,45 @@ body {
   left: 0;
   background: inherit;
   border-radius: inherit;
+}
+/* 
+.main{
+    .page{
+        padding: 40px;
+        min-height: calc(100vh - 80px);
+    }
+    .body{
+        display: flex;
+        gap: 40px;
+    }
+    
+} */
+
+.stairs {
+  .transition-container {
+      height: 100vh;
+      width: 100vw;
+      position: fixed;
+      top: 0;
+      left: 0;
+      pointer-events: none;
+      display: flex;
+      div {
+          position: relative;
+          height: 100%;
+          width: 100%;
+          background-color: black;
+      }
+      z-index: 3;
+  }
+  
+  .background {
+      height: 100vh;
+      width: 100vw;
+      position: fixed;
+      top: 0;
+      left: 0;
+      pointer-events: none;
+      background-color: black;
+  }
 }
