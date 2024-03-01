@@ -80,37 +80,6 @@
       }
 
     ],
-    "aboutpara": "Hi there! I’m Christina, a front-end engineer with a focus on user-centric design, based in Orange County. I graduated from UCI with a Bachelor’s in Informatics, specializing in Human-Computer Interaction, where I developed my technical skills and sharpened my eye for design. I love using my skills to create impactful digital products and make a positive impact on people's lives, and I am constantly seeking new challenges to improve in my craft! When I’m not coding or designing, I enjoy learning how to cook, trying new restaurants, crocheting, and trying new crafts 😊 If you're looking for a driven and creative developer to join your team, let's connect!",
-    "resume": {
-      "tagline": "👋  I'm a software engineer, product designer, and maker.",
-      "description": "I have delivered world-class user experiences to millions of people. Well-versed with React, Javascript, and most of the Web frameworks.",
-      "experiences": [
-        {
-          "id": "1",
-          "dates": "March 2022 - Present",
-          "type": "Full Time",
-          "position": "Frontend Engineer at X",
-          "bullets": [
-            "Worked on the frontend of a React application",
-            "Worked on the frontend of a React application"
-          ]
-        },
-        {
-          "id": "2",
-          "dates": "March 2020 - March 2022",
-          "type": "Full Time",
-          "position": "Frontend Engineer at X",
-          "bullets": ["Worked on the frontend of a React application"]
-        }
-      ],
-      "education": {
-        "universityName": "University X",
-        "universityDate": "2016-2020",
-        "universityPara": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book"
-      },
-      "languages": ["Javascript", "HTML5", "CSS", "Python"],
-      "frameworks": ["React", "Typescript", "NodeJs"],
-      "others": ["Figma", "AdobeXD", "AWS"]
-    }
+    "aboutpara": "Hi there! I’m Christina, a front-end engineer with a focus on user-centric design, based in Orange County. I graduated from UCI with a Bachelor’s in Informatics, specializing in Human-Computer Interaction, where I developed my technical skills and sharpened my eye for design. I love using my skills to create impactful digital products and make a positive impact on people's lives, and I am constantly seeking new challenges to improve in my craft! When I’m not coding or designing, I enjoy learning how to cook, trying new restaurants, crocheting, and trying new crafts 😊 If you're looking for a driven and creative developer to join your team, let's connect!"
   }
   

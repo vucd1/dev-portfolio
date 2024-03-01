@@ -11,7 +11,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, handleContactScroll, isBl
   const { theme, setTheme } = useTheme();
   const [mounted, setMounted] = useState(false);
 
-  const { name, showBlog, showResume } = data;
+  const { name, showBlog} = data;
 
   useEffect(() => {
     setMounted(true);
