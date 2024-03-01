@@ -139,22 +139,22 @@ export default function Home() {
           <div className="mt-5 tablet:mt-10 grid grid-cols-1 tablet:grid-cols-2 gap-12 items-start">
             <div>
             <p className="paragraph">
-              Hi there, I’m Christina! A front-end engineer with a focus on user-centric design, 
+              Hi there, I&apos;m Christina! A front-end engineer with a focus on user-centric design, 
               based in Orange County.
             </p>
             <p className="paragraph">
-              I graduated from UCI with a Bachelor’s in Informatics, 
+              I graduated from UCI with a Bachelor&apos;s in Informatics, 
               specializing in Human-Computer Interaction, where I developed my technical skills 
               and sharpened my eye for design. I love using my skills to create impactful digital 
-              products and make a positive impact on people's lives, and I am constantly seeking 
+              products and make a positive impact on people&apos;s lives, and I am constantly seeking 
               new challenges to improve in my craft!
             </p>
             <p className="paragraph">
-              When I’m not coding, I enjoy learning how to cook, trying new restaurants, 
+              When I&apos;m not coding, I enjoy learning how to cook, trying new restaurants, 
               crocheting, and trying new crafts 😊 
             </p>
             <p className="paragraph">
-              If you're looking for a driven and creative developer to join your team, let's connect!
+              If you&apos;re looking for a driven and creative developer to join your team, let&apos;s connect!
             </p>
             </div>
             <div className="flex justify-center items-center">
