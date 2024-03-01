@@ -75,7 +75,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, handleContactScroll, isBl
                   <Button onClick={handleContactScroll}>Contact</Button>
                   <Button
                       onClick={() =>
-                        window.open("https://drive.google.com/file/d/1f2u27l64clmLZhe_IWjxmLoyrtivNp6w/view")
+                        window.open("https://drive.google.com/file/d/16fIGKHwC9YREQr0lFmNYLOi9SkG1EAaC/view?usp=sharing")
                       }
                     >
                       Resume
@@ -111,7 +111,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, handleContactScroll, isBl
             <Button onClick={handleContactScroll}>Contact</Button>
             <Button
                 onClick={() =>
-                  window.open("https://drive.google.com/file/d/1f2u27l64clmLZhe_IWjxmLoyrtivNp6w/view")
+                  window.open("https://drive.google.com/file/d/16fIGKHwC9YREQr0lFmNYLOi9SkG1EAaC/view?usp=sharing")
                 }
               >
                 Resume

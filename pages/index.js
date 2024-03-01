@@ -63,7 +63,7 @@ export default function Home() {
     <div className={`relative ${data.showCursor && "cursor-none"}`}>
       {data.showCursor && <Cursor />}
       <Head>
-        <title>{data.name}</title>
+        <title>Christina Vu — Front-End Engineer</title>
       </Head>
 
     <Stairs>

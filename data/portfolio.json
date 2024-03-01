@@ -33,51 +33,52 @@
         "title": "Red Blocks Lab (Coming Soon)",
         "description": "React, NextJS, TailwindCSS, Framer",
         "imageSrc": "https://images.unsplash.com/photo-1492171983775-a51717616c0d?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8NjB8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
-        "url": "http://chetanverma.com/"
+        "url": "/"
       },
       {
         "id": "2",
         "title": "Pro Barber College",
         "description": "React, NextJS",
         "imageSrc": "images/thumbnail_barber.PNG",
-        "url": "http://chetanverma.com/"
+        "url": "https://www.probarbercollege.com/"
       },
       {
         "id": "3",
         "title": "Andrew Tran Photography",
-        "description": "Figma, React, NextJS, Framer",
+        "description": "Figma, Webflow",
         "imageSrc": "images/thumbnail_photography.PNG",
-        "url": "http://chetanverma.com/"
+        "url": "https://andrew-tran.webflow.io/"
       },
       {
         "id": "4",
         "title": "Unii Learning Labs",
-        "description": "Webflow Development",
+        "description": "Figma, Webflow",
         "imageSrc": "images/thumbnail_unii.PNG",
-        "url": "http://chetanverma.com/"
+        "url": "https://uniilearninglabs.webflow.io/"
       }
     ],
     "services": [
       {
         "id": "1",
         "title": "Front-End Development",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        "description": "I build, style, and deploy responsive, high-performance websites for your business's needs."
       },
       {
         "id": "2",
         "title": "UI/UX Design",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        "description": "My background in user-centric and accessible design provides me with the skillset to create intuitive and visually compelling user interfaces."
       },
       {
         "id": "3",
-        "title": "",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        "title": "Webflow Development",
+        "description": "Webflow is a visual code editor and it allows me to deploy visually stunning static websites for you, just within a few days."
       },
       {
         "id": "4",
-        "title": "",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        "title": "User Research",
+        "description": "Understanding your users' needs is an integral part of your product. I can help you uncover these insights and improve the user journey."
       }
+
     ],
     "aboutpara": "Hi there! I’m Christina, a front-end engineer with a focus on user-centric design, based in Orange County. I graduated from UCI with a Bachelor’s in Informatics, specializing in Human-Computer Interaction, where I developed my technical skills and sharpened my eye for design. I love using my skills to create impactful digital products and make a positive impact on people's lives, and I am constantly seeking new challenges to improve in my craft! When I’m not coding or designing, I enjoy learning how to cook, trying new restaurants, crocheting, and trying new crafts 😊 If you're looking for a driven and creative developer to join your team, let's connect!",
     "resume": {
