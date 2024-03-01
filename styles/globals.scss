@@ -19,6 +19,14 @@ body {
   @apply dark:bg-black dark:text-white;
 }
 
+.paragraph {
+  @apply tablet:mt-3 mt-2 text-lg opacity-75;
+}
+
+.sm-link {
+  @apply no-underline font-bold opacity-100 text-stone-900 hover:text-fuchsia-800	;
+}
+
 .gradient-circle {
   position: absolute;
   pointer-events: none;
@@ -113,7 +121,7 @@ body {
       z-index: 3;
   }
   
-  .background {
+ .background {
       height: 100vh;
       width: 100vw;
       position: fixed;
