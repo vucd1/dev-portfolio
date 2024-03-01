@@ -93,7 +93,8 @@ const Header = ({ handleWorkScroll, handleAboutScroll, handleContactScroll, isBl
       <div
         className={`mt-10 hidden flex-row items-center justify-between sticky ${
           theme === "light" && "bg-white"
-        } dark:text-white top-0 z-10 tablet:flex`}
+        }  top-0 z-10 tablet:flex`}
+        // dark:text-white
       >
         <h1
           onClick={() => router.push("/")}
