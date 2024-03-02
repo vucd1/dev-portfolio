@@ -1,5 +1,5 @@
 import { Popover } from "@headlessui/react";
-import { useTheme } from "next-themes";
+// import { useTheme } from "next-themes";
 import { useRouter } from "next/router";
 import React, { useEffect, useState } from "react";
 import Button from "../Button";
@@ -8,7 +8,7 @@ import data from "../../data/portfolio.json";
 
 const Header = ({ handleWorkScroll, handleAboutScroll, handleContactScroll, isBlog }) => {
   const router = useRouter();
-  const { theme, setTheme } = useTheme();
+  // const { theme, setTheme } = useTheme();
   const [mounted, setMounted] = useState(false);
 
   const { name, showBlog} = data;
@@ -32,7 +32,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, handleContactScroll, isBl
               </h1>
 
               <div className="flex items-center">
-                {data.darkMode && (
+                {/* {data.darkMode && (
                   <Button
                     onClick={() =>
                       setTheme(theme === "dark" ? "light" : "dark")
@@ -45,19 +45,15 @@ const Header = ({ handleWorkScroll, handleAboutScroll, handleContactScroll, isBl
                       }`}
                     ></img>
                   </Button>
-                )}
+                )} */}
 
                 <Popover.Button>
                   <img
                     className="h-5"
                     src={`/images/${
                       !open
-                        ? theme === "dark"
-                          ? "menu-white.svg"
-                          : "menu.svg"
-                        : theme === "light"
-                        ? "cancel.svg"
-                        : "cancel-white.svg"
+                        ? "menu.svg"
+                        : "cancel.svg"
                     }`}
                   ></img>
                 </Popover.Button>
@@ -65,9 +61,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, handleContactScroll, isBl
             </div>
             {/* Mobile Menu: Popup with links */}
             <Popover.Panel
-              className={`absolute right-0 z-10 w-11/12 py-4 ${
-                theme === "dark" ? "bg-slate-800" : "bg-white"
-              } shadow-md rounded-md`}
+              className={`absolute right-0 z-10 w-11/12 py-4 bg-white shadow-md rounded-md`}
             >
                 <div className="grid grid-cols-1">
                   <Button onClick={handleWorkScroll}>Work</Button>
@@ -91,9 +85,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, handleContactScroll, isBl
 
       {/* Navbar */}
       <div
-        className={`mt-10 hidden flex-row items-center justify-between sticky ${
-          theme === "light" && "bg-white"
-        }  top-0 z-10 tablet:flex`}
+        className={`mt-10 hidden flex-row items-center justify-between sticky ${ "bg-white" }  top-0 z-10 tablet:flex`}
         // dark:text-white
       >
         <h1
@@ -121,16 +113,6 @@ const Header = ({ handleWorkScroll, handleAboutScroll, handleContactScroll, isBl
               </svg>
 
               </Button>
-            {mounted && theme && data.darkMode && (
-              <Button
-                onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
-              >
-                <img
-                  className="h-6"
-                  src={`/images/${theme === "dark" ? "moon.svg" : "sun.svg"}`}
-                ></img>
-              </Button>
-            )}
           </div>
       </div>
     </>
